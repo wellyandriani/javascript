@@ -1,7 +1,7 @@
 //level 7
 console.log("LEVEL 7");
 
-let title = "wElly andriani"
+let thetitle = "wElly andriani"
 function toTitleCase(str) {
     return str.replace(
         /\w\S*/g,
@@ -11,4 +11,4 @@ function toTitleCase(str) {
     );
 }
 
-console.log(toTitleCase(title));
+console.log(toTitleCase(thetitle));
