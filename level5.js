@@ -3,12 +3,12 @@ console.log("LEVEL 5");
 
 const firstName = "Welly"
 const lastName = "Andriani"
-const id = "12345"
+const id = "123456"
 
-const resultC = firstName + " " + lastName + " " + id
-const resultD = `${firstName} ${lastName} ${id}`
-const resultE = firstName + lastName + id
+const resultCE = firstName + " " + lastName + " " + id
+const resultDE = `${firstName} ${lastName} ${id}`
+const resultEE = firstName + lastName + id
 
-console.log(resultC);
-console.log(resultD);
-console.log(resultE);
+console.log(resultCE);
+console.log(resultDE);
+console.log(resultEE);
