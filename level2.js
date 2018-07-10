@@ -1,15 +1,14 @@
 //LEVEL2
 console.log("LEVEL 2");
 
-let numberS = -6000
-let numberM = 243897487847598
+let numberS = -6000000
+let numberM = 243897487
+let stringG = "hi"
+let booleanH = "true"
 
-let firstName = "Welly"
-let lastName = "Andriani"
-
-let result1 = firstName + " " + lastName
-let result2 = `${firstName} ${lastName}`
-let result3 = numberS + numberM
+let result3 = numberS + numberM + " " + stringG
+let result1 = stringG + " " + booleanH
+let result2 = numberM - numberS + " " + booleanH
 
 
 console.log(result1);
