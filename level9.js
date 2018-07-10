@@ -1,10 +1,10 @@
 //level 9
 console.log("LEVEL 9");
 
-function test(old) {
-    if (old <= 16) {
+function test(age) {
+    if (age <= 16) {
       return "You are still a teenager";
-    } else if (old <= 20) {
+    } else if (age <= 20) {
       return "You're an adult";
     }else{
         return "you are elderly"
