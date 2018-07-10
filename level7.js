@@ -1,14 +1,14 @@
 //level 7
 console.log("LEVEL 7");
 
-let title = "Welly Andriani"
-
-function toTitleCase(srt) {
-    return str.replace(/(?:^|\s)\w/g, function (match.toUpperCase())
-    return match.toUpperCase();
-
-})
+let title = "wElly andriani"
+function toTitleCase(str) {
+    return str.replace(
+        /\w\S*/g,
+        function(txt) {
+            return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+        }
+    );
 }
-console.log(title.toLowerCase())
-console.log(title.toUpperCase())
-console.log(toTitleCase())
+
+console.log(toTitleCase(title));
