@@ -1,13 +1,27 @@
 // level 15
 console.log("LEVEL 15")
-
-var add = Math.round(2,6) + Math.pow(8,3);
-var substract = Math.PI - Math.round(4,2);
-var multiply = Math.pow(3,2) * Math.PI;
-var divide = Math.pow(6,3) / Math.PI;
-
-console.log(add);
-console.log(substract);
-console.log(multiply);
-console.log(divide);
  
+var bb = 9;
+var cc = 8;
+
+    function add(bb, cc){
+        return bb + cc;
+  }
+  function subtract(bb, cc){
+        return bb - cc;
+  }
+  function multiply(bb, cc){
+      return bb * cc;
+  }
+  function divide(bb, cc){
+      return bb / cc;
+  }
+  function modulo(bb, cc){
+      return bb % cc;
+  }
+
+console.log(add(bb, cc));
+console.log(subtract(bb, cc));
+console.log(multiply(bb, cc));
+console.log(divide(bb, cc));
+console.log(modulo(bb, cc));
