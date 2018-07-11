@@ -4,5 +4,5 @@ var x = "x"
 let y = "y"
 const z = "z"
 
-x = "xxxxxxxxxxxxx"
+x = "Welly Andriani"
 console.log(x);
