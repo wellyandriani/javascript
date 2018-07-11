@@ -12,13 +12,54 @@
         <h1>HELLO WORLD JAVASCRIPT</h1>
     </div>
 
-<input type='text' name='nilai' placeholder='input'/>
-<button onclick='add()'>+</button>
-<button onclick='subtract()'>-</button>
-<button onclick='multiply()'>x</button>
-<button onclick='devide()'>:</button>
-<button onclick='enter()'>Enter</button>
-<input type='text' name='hasil' placeholder='output'/>
+    <FORM class="back">
+        <TABLE CELLSPACING="0" CELLPADDING="1">
+        <tr>
+        <td COLSPAN="5" ALIGN="center"><INPUT NAME="display" VALUE="0" SIZE="28" MAXLENGTH="25"></td>
+        </tr>
+        <tr>
+        <td ALIGN="center"><INPUT class="button button1" VALUE="exp" ONCLICK="if(checkNum(this.form.display.value)) { exp(this.form) }"></td>
+        <td ALIGN="center"><INPUT class="button button1" VALUE="7" ONCLICK="addChar(this.form.display, '7')"></td>
+        <td ALIGN="center"><INPUT class="button button1" VALUE="8" ONCLICK="addChar(this.form.display, '8')"></td>
+        <td ALIGN="center"><INPUT class="button button1" VALUE="9" ONCLICK="addChar(this.form.display, '9')"></td>
+        <td ALIGN="center"><INPUT class="button button1" VALUE="/" ONCLICK="addChar(this.form.display, '/')"></td>
+        </tr>
+        <tr>
+        <td ALIGN="center"><INPUT class="button button1" VALUE="ln" ONCLICK="if(checkNum(this.form.display.value)) { ln(this.form) }"></td>
+        <td ALIGN="center"><INPUT class="button button1" VALUE="4" ONCLICK="addChar(this.form.display, '4')"></td>
+        <td ALIGN="center"><INPUT class="button button1" VALUE="5" ONCLICK="addChar(this.form.display, '5')"></td>
+        <td ALIGN="center"><INPUT class="button button1" VALUE="6" ONCLICK="addChar(this.form.display, '6')"></td>
+        <td ALIGN="center"><INPUT class="button button1" VALUE="*" ONCLICK="addChar(this.form.display, '*')"></td>
+        </tr>
+        <tr>
+        <td ALIGN="center"><INPUT class="button button1" VALUE="sqrt" ONCLICK="if(checkNum(this.form.display.value)) { sqrt(this.form) }"></td>
+        <td ALIGN="center"><INPUT class="button button1" VALUE="1" ONCLICK="addChar(this.form.display, '1')"></td>
+        <td ALIGN="center"><INPUT class="button button1" VALUE="2" ONCLICK="addChar(this.form.display, '2')"></td>
+        <td ALIGN="center"><INPUT class="button button1" VALUE="3" ONCLICK="addChar(this.form.display, '3')"></td>
+        <td ALIGN="center"><INPUT class="button button1" VALUE="-" ONCLICK="addChar(this.form.display, '-')"></td>
+        </tr>
+        <tr>
+        <td ALIGN="center"><INPUT class="button button1" VALUE="sq" ONCLICK="if(checkNum(this.form.display.value)) { square(this.form) }"></td>
+        <td ALIGN="center"><INPUT class="button button1" VALUE="0" ONCLICK="addChar(this.form.display, '0')"></td>
+        <td ALIGN="center"><INPUT class="button button1" VALUE="." ONCLICK="addChar(this.form.display, '.')"></td>
+        <td ALIGN="center"><INPUT class="button button1" VALUE="+/-" ONCLICK="changeSign(this.form.display)"></td>
+        <td ALIGN="center"><INPUT class="button button1" VALUE="+" ONCLICK="addChar(this.form.display, '+')"></td>
+        </tr>
+        <tr>
+        <td ALIGN="center"><INPUT class="button button1" VALUE="(" ONCLICK="addChar(this.form.display, '(')"></td>
+        <td ALIGN="center"><INPUT class="button button1" VALUE="cos" ONCLICK="if(checkNum(this.form.display.value)) { cos(this.form) }"></td>
+        <td ALIGN="center"><INPUT class="button button1" VALUE="sin" ONCLICK="if(checkNum(this.form.display.value)) { sin(this.form) }"></td>
+        <td ALIGN="center"><INPUT class="button button1" VALUE="tan" ONCLICK="if(checkNum(this.form.display.value)) { tan(this.form) }"></td>
+        <td ALIGN="center"><INPUT class="button button1" VALUE=")" ONCLICK="addChar(this.form.display, ')')"></td>
+        </tr>
+        <tr>
+        <td ALIGN="center"><INPUT class="button button1 button2" VALUE="clear" ONCLICK="this.form.display.value = 0 "></td>
+        <td ALIGN="center" COLSPAN="3"><INPUT class="button button1 button2 button3" VALUE="backspace" ONCLICK="deleteChar(this.form.display)"></td>
+        <td ALIGN="center"><INPUT class="button button1 button2" VALUE="enter" NAME="enter" ONCLICK="if(checkNum(this.form.display.value)) { compute(this.form) }"></td>
+        </tr>
+        </TABLE>
+        </FORM>
+        
 
     <script src="level0.js" ></script>
     <script src="level1.js" ></script>
@@ -33,6 +74,7 @@
     <script src="level10.js" ></script>
     <script src="level11.js" ></script>
     <script src="level12.js" ></script>
+    <script src="kalku.js" ></script>
     <script src="switch.js" ></script>
     <script src="level13.js" ></script>
     <script src="level14.js" ></script>
