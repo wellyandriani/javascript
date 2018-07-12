@@ -1,5 +1,5 @@
-// level 15
-console.log("LEVEL 15")
+// level 16
+console.log("LEVEL 16")
  
 var bb = 9;
 var cc = 8;
@@ -20,6 +20,7 @@ var cc = 8;
       return bb % cc;
   }
 
+  add(substract(2,1), divide(4,3))
 
 console.log(add(bb, cc));
 console.log(subtract(bb, cc));

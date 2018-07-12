@@ -1,9 +1,9 @@
 
-//level 0
+//level 1
 
-console.log("LEVEL 0");
+console.log("LEVEL 1");
 
-const names = [
+const name = [
     "Mr.Fahri",
     "Mr. Abdul",
     "Mrs. Josephhine",
@@ -13,4 +13,6 @@ const names = [
     "Mr. Hakim"  
 ];
 
-console.log(names);
+name.forEach(list=>{
+    console.log(list)
+});
