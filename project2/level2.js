@@ -12,22 +12,11 @@ const nameis = [
     "Mr. Hakim"  
 ];
 
-const displayMisterTren = function (array){
-    const filtered = array.filter(function (item){
-        return item.charAt(2) !== "s"
-    })
-}
-
-const displaymister = (array) => {
-    const filtered array.filter(item => item.charAt(2)!=="s")
-    console.log(filtered);
-}
-const displaymistress = (array) => {
-    const filtered array.filter(item => item.charAt(2) ==="s")
-    console.log(filtered);
-}
-
-displaymaster(nameis)
-displaymistress(nameis)
-
-
+nameis.forEach(function(element){
+    if(element.charAt(2)==="s"){
+        console.log(element +  " Female");
+    }
+    else{
+        console.log(element + " male");
+    }
+});
