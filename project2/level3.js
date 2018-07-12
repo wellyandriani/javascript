@@ -9,12 +9,12 @@ const namelist = [
     "Mr. Joseph",
     "Mr. Paul",
     "Mrs. Paula",
-    "Mr. Hakim"  
+    "Mr. Hakim"
 ];
 const displayName = (query) => {
-    return namelist.filter((name)=>
-    name.toLowerCase().indexOf(query.toLowerCase())> -1
-);
+    return namelist.filter((name) =>
+        name.toLowerCase().indexOf(query.toLowerCase()) > -1
+    );
 }
 
 console.log(displayName("pa"));

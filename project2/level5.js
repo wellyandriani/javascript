@@ -15,16 +15,14 @@ const namee = [
     7,
     22,
     "Mr. Hakim"
-  ];
+];
 
-  function remove(array){
-      array.forEach(element => {
-          if(typeof element === 'number') {
-              console.log(element)
-          }
-          
-      });
-  }
+function remove(array) {
+    array.forEach(element => {
+        if (typeof element === 'number') {
+            console.log(element)
+        }
+    });
+}
 
 remove(namee)
-  

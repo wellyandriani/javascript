@@ -9,14 +9,13 @@ const nameis = [
     "Mr. Joseph",
     "Mr. Paul",
     "Mrs. Paula",
-    "Mr. Hakim"  
+    "Mr. Hakim"
 ];
 
-nameis.forEach(function(element){
-    if(element.charAt(2)==="s"){
-        console.log(element +  " Female");
-    }
-    else{
+nameis.forEach(function (element) {
+    if (element.charAt(2) === "s") {
+        console.log(element + " Female");
+    } else {
         console.log(element + " male");
     }
 });
